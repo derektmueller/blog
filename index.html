@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="vrview.min.js"></script>
+    <script src="http://www.vrocket.com/vrview/build/vrview.min.js"></script>
   </head>
   <body>
+</iframe>
     <div id="vrview"></div>
 <script>
 
 window.addEventListener('load', onVrViewLoad);
 function onVrViewLoad() {
   var vrView = new VRView.Player('#vrview', {
-     //image: 'http://i.imgur.com/KyECLqf.jpg',
-     image: '/sphere.jpg',
+     image: 'http://i.imgur.com/KyECLqf.jpg',
      is_stereo: false
   });
 }
